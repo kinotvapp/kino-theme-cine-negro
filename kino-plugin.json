@@ -1,0 +1,79 @@
+{
+  "id": "theme-cine-negro",
+  "name": "Cine Negro",
+  "version": "1.0.0",
+  "apiVersion": 17,
+  "entry": "plugin.js",
+  "icon": "icon.png",
+  "description": "Blanco y negro, esquinas rectas y humo de detective en los años cuarenta.",
+  "author": "kinotvapp",
+  "hosts": [],
+  "categories": [
+    "themes"
+  ],
+  "capabilities": [
+    "screen"
+  ],
+  "screen": {
+    "label": "Cine Negro",
+    "labelEn": "Film Noir",
+    "opensFrom": [
+      "settings"
+    ],
+    "settingsButton": {
+      "label": "Ver presentación",
+      "labelEn": "See presentation"
+    }
+  },
+  "appThemes": [
+    {
+      "id": "cine-negro",
+      "name": {
+        "es": "Cine Negro",
+        "en": "Film Noir"
+      },
+      "colors": {
+        "accent": "#F2F2F2",
+        "onAccent": "#111111",
+        "background": "#0B0B0B",
+        "surface": "#171717",
+        "surfaceHigh": "#232323",
+        "railPanel": "#121212"
+      },
+      "shape": {
+        "cardRadius": 0,
+        "channelRadius": 0,
+        "buttonRadius": 0,
+        "chipRadius": 0,
+        "dialogRadius": 0,
+        "inputRadius": 0
+      },
+      "typography": {
+        "scale": 1.0,
+        "titleScale": 1.0
+      },
+      "tv": {
+        "typography": {
+          "scale": 1.0
+        }
+      },
+      "adjustable": {
+        "colors.accent": {
+          "swatches": [
+            "#F2F2F2",
+            "#BDBDBD",
+            "#FFD60A"
+          ]
+        },
+        "shape.cardRadius": {
+          "min": 0,
+          "max": 32
+        },
+        "typography.scale": {
+          "min": 1.0,
+          "max": 1.3
+        }
+      }
+    }
+  ]
+}
