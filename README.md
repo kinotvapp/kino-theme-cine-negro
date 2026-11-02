@@ -1,10 +1,10 @@
-<img src="icon.png" width="128" alt="Cine Negro">
+<img src="icon.png" width="128" alt="Joker">
 
-# Cine Negro
+# Joker
 
-Blanco y negro, esquinas rectas y humo de detective en los años cuarenta.
+Morado de traje y verde ácido de pelo, sobre un fondo de carcajada oscura.
 
-Tema para [Kino](https://github.com/kinotvapp/kino-light). Cambia los colores, el fondo y las formas de toda la app, trae una pantalla de presentación y no se conecta a internet.
+Tema para [Kino](https://github.com/kinotvapp/kino-light). Cambia los colores, el fondo, las formas y el logo de toda la app, trae una pantalla de presentación y no se conecta a internet.
 
 En Kino, escribe `kinotvapp/kino-theme-cine-negro` en **Plugins ▸ Agregar un plugin**. Después ábrelo y pulsa **Activar**.
 
