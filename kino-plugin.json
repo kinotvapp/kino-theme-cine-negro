@@ -1,11 +1,11 @@
 {
   "id": "theme-cine-negro",
-  "name": "Cine Negro",
-  "version": "1.0.4",
+  "name": "Joker",
+  "version": "1.1.0",
   "apiVersion": 18,
   "entry": "plugin.js",
   "icon": "icon.png",
-  "description": "Blanco y negro, esquinas rectas y humo de detective en los años cuarenta.",
+  "description": "Morado de traje y verde ácido de pelo, sobre un fondo de carcajada oscura.",
   "author": "kinotvapp",
   "hosts": [],
   "categories": [
@@ -15,8 +15,8 @@
     "screen"
   ],
   "screen": {
-    "label": "Cine Negro",
-    "labelEn": "Film Noir",
+    "label": "Joker",
+    "labelEn": "Joker",
     "opensFrom": [
       "settings"
     ],
@@ -29,16 +29,16 @@
     {
       "id": "cine-negro",
       "name": {
-        "es": "Cine Negro",
-        "en": "Film Noir"
+        "es": "Joker",
+        "en": "Joker"
       },
       "colors": {
-        "accent": "#F2F2F2",
-        "onAccent": "#111111",
-        "background": "#0B0B0B",
-        "surface": "#171717",
-        "surfaceHigh": "#232323",
-        "railPanel": "#121212"
+        "accent": "#A6FF00",
+        "onAccent": "#0C1400",
+        "background": "#10051C",
+        "surface": "#1E0A33",
+        "surfaceHigh": "#311152",
+        "railPanel": "#170727"
       },
       "shape": {
         "cardRadius": 0,
@@ -60,9 +60,9 @@
       "adjustable": {
         "colors.accent": {
           "swatches": [
-            "#F2F2F2",
-            "#BDBDBD",
-            "#FFD60A"
+            "#A6FF00",
+            "#9B5DE5",
+            "#F5F5F5"
           ]
         },
         "shape.cardRadius": {
@@ -77,6 +77,52 @@
       "price": {
         "kinos": 10,
         "payTo": "8b97f0011f9d4594d269edc4afb3a0ee10e394abf54b0a40d90ca83f8f7d6a0e"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#10051C",
+          "#3A0D6B"
+        ],
+        "angle": 180
+      },
+      "logo": {
+        "decor": {
+          "paths": [
+            {
+              "d": "M -104 0 A 104 104 0 1 1 104 0 A 104 104 0 1 1 -104 0 Z",
+              "fill": "#000000"
+            },
+            {
+              "d": "M -100 0 A 100 100 0 1 1 100 0 A 100 100 0 1 1 -100 0 Z",
+              "fill": "#F6F3EA"
+            },
+            {
+              "d": "M -85.4 -52 A 100 100 0 0 1 85.4 -52 Q 40 -70 20 -48 Q 0 -76 -22 -48 Q -42 -72 -85.4 -52 Z",
+              "fill": "#2FA84F"
+            },
+            {
+              "d": "M -55 -18 A 21 21 0 1 1 -13 -18 A 21 21 0 1 1 -55 -18 Z M 13 -18 A 21 21 0 1 1 55 -18 A 21 21 0 1 1 13 -18 Z",
+              "fill": "#5B2C9F"
+            },
+            {
+              "d": "M -45 -16 A 11 11 0 1 1 -23 -16 A 11 11 0 1 1 -45 -16 Z M 23 -16 A 11 11 0 1 1 45 -16 A 11 11 0 1 1 23 -16 Z",
+              "fill": "#0B0B12"
+            },
+            {
+              "d": "M -66 14 Q -80 8 -84 -4 Q -70 -2 -60 6 Q 0 78 60 6 Q 70 -2 84 -4 Q 80 8 66 14 Q 0 98 -66 14 Z M -9 -2 A 9 9 0 1 1 9 -2 A 9 9 0 1 1 -9 -2 Z",
+              "fill": "#D4162B"
+            },
+            {
+              "d": "M -381 -156 L -340 -166 L -325 -108 L -366 -98 Z",
+              "fill": "#F6F3EA"
+            },
+            {
+              "d": "M -357 -148 L -341 -135 L -349 -116 L -365 -129 Z",
+              "fill": "accent"
+            }
+          ]
+        }
       }
     }
   ]
