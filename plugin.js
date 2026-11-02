@@ -1,5 +1,5 @@
 // A theme's presentation, drawn with the screen kit in whichever theme is active.
-const THEME = {"id": "cine-negro", "es": "Cine Negro", "en": "Film Noir", "hook": "Era una noche oscura, y todos tenían un secreto.", "hookEn": "It was a dark night, and everyone had a secret.", "desc": "Blanco y negro, esquinas rectas y humo de detective en los años cuarenta."};
+const THEME = {"id": "cine-negro", "es": "Joker", "en": "Joker", "hook": "¿Por qué tan serio?", "hookEn": "Why so serious?", "desc": "Morado de traje y verde ácido de pelo, sobre un fondo de carcajada oscura."};
 const t = (es, en) => ({ text: es, textEn: en });
 
 export async function screen({ activeTheme }) {
